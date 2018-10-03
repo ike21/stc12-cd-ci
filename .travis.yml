@@ -25,7 +25,7 @@ cache:
 
 addons:
   sonarcloud:
-    organization: "stc12-gradleTest"
+    organization: "ike21"
     token:
       secure: "bf75052458b00bdf8eeef8067b7b785a4a2c32f7"
 
