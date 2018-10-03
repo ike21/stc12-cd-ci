@@ -19,4 +19,8 @@ public class WordFinderImpl implements WordFinder {
     public void writeSentenceToResult(String sentence) {
         // because
     }
+
+    public void writeSentenceToResult2(String sentence) {
+
+    }
 }
