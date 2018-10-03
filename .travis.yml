@@ -25,9 +25,9 @@ cache:
 
 addons:
   sonarcloud:
-    organization: $SONARCLOUD_ORGANIZATION
+    organization: "stc12-gradleTest"
     token:
-      secure: $SONARCLOUD_TOKEN
+      secure: "bf75052458b00bdf8eeef8067b7b785a4a2c32f7"
 
 script:
   - ./gradlew assemble
