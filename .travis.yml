@@ -27,7 +27,7 @@ addons:
   sonarcloud:
     organization: "ike21-github"
     token:
-      secure: "bf75052458b00bdf8eeef8067b7b785a4a2c32f7"
+      secure: "a3c249e9ed40a9fe2779034cd49a64dfc8806fb0"
 
 script:
   - ./gradlew assemble
