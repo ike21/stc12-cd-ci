@@ -1,1 +1,1 @@
-# stc12-cd-ci <img src="https://travis-ci.org/ike21/stc12-cd-ci.svg?branch=master" alt="Build Status" /> [![Quality Gate](https://sonarqube.com/api/badges/gate?key=ike21_stc12-cd-ci)](https://sonarqube.com/dashboard/index/ike21_stc12-cd-ci)
+# stc12-cd-ci [![Build Status](https://travis-ci.org/ike21/stc12-cd-ci.svg?branch=master)](https://travis-ci.org/ike21/stc12-cd-ci) [![Sonarcloud Status](https://sonarcloud.io/api/project_badges/measure?project=ike21_stc12-cd-ci&metric=alert_status)](https://sonarcloud.io/dashboard?id=ike21_stc12-cd-ci)
