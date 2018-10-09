@@ -11,11 +11,16 @@ public class WordFinderImpl implements WordFinder {
 
     @Override
     public boolean checkInWordInSentence(String sentence, String word) {
+
         return false;
     }
 
     @Override
     public void writeSentenceToResult(String sentence) {
+        // because
+    }
+
+    public void writeSentenceToResult2(String sentence) {
 
     }
 }

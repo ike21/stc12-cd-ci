@@ -5,18 +5,18 @@ install: true
 dist: trusty
 
 jdk:
-  - oraclejdk8
+- oraclejdk8
 
 os:
-  - linux
+- linux
 
 branches:
   only:
-    - master
+  - master
 
 before_cache:
-  - rm -f $HOME/.gradle/caches/modules-2/modules-2.lock
-  - rm -fr $HOME/.gradle/caches/*/plugin-resolution/
+- rm -f $HOME/.gradle/caches/modules-2/modules-2.lock
+- rm -fr $HOME/.gradle/caches/*/plugin-resolution/
 
 cache:
   directories:
@@ -30,7 +30,7 @@ addons:
       secure: "a3c249e9ed40a9fe2779034cd49a64dfc8806fb0"
 
 script:
-  - ./gradlew assemble
-  - ./gradlew check --rerun-tasks
-  - sonar-scanner
-  - rm -rf .scannerwork
+- ./gradlew assemble
+- ./gradlew check --rerun-tasks
+- sonar-scanner
+- rm -rf .scannerwork
